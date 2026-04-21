@@ -29,11 +29,13 @@ public class AtividadesWhile3 {
                         break;
                     case 5:
                         System.out.println("Finalizando o programa...");
+                        sc.close();
                         System.exit(0);
                 }
             }else 
                 System.out.println("Por favor digite uma nota valida");
                 
         } while (true);
+    
     }
 }
