@@ -3,14 +3,14 @@ public class AtividadeWhile1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        double numero, contador=0, soma=0;
+        int contador=0, soma=0, numero;
         double media;
         String numerosInformados = "";
         
 
         do {
             System.out.println("Informe um numéro inteiro: ");
-            numero = sc.nextDouble();
+            numero = sc.nextInt();
             soma += numero;
             numerosInformados = numerosInformados +" "+numero;
             contador++;

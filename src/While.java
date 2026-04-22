@@ -8,7 +8,7 @@ public class While {
         boolean invalido = true;
 
 
-        while (invalido) {
+        while (invalido) { // while usado para loops que nao sabemos quantos vao ser
             System.out.println("Digite a nota");
             nota = sc.nextDouble();
 
