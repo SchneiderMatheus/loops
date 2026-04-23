@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class AtividadesWhile3 {
+public class TarefaWhile3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int escolha;

@@ -14,11 +14,11 @@ public class TarefaWhile1 {
             soma += numero;
             numerosInformados = numerosInformados +" "+numero;
             contador++;
-            media= soma/contador;
+            
 
 
-        } while (soma<100 && contador <10);
-
+        } while (soma<100 || contador <10);
+        media= soma/contador;
         System.out.println("A quantidade de números informados é "+contador);
         System.out.println("Esses numeros foram: "+numerosInformados);
         System.out.println("A soma total dos números: "+soma);

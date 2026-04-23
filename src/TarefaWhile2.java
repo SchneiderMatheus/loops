@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class AtividadeWhil2 {
+public class TarefaWhile2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -15,7 +15,7 @@ public class AtividadeWhil2 {
             if (nota >=1 && nota <=5) {
                 contador++;
                 soma += nota;
-                media= soma/contador;
+                
 
                 if (nota == 1) {
                 cont1++;
@@ -33,7 +33,7 @@ public class AtividadeWhil2 {
                 
             
         } while (nota != 0); {
-            
+        media= soma/contador;
     
         System.out.println("Quantidade de respostas registradas foi: "+contador);
         System.out.println("Média das notas foi: "+media);
