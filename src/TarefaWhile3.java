@@ -29,13 +29,12 @@ public class TarefaWhile3 {
                         break;
                     case 5:
                         System.out.println("Finalizando o programa...");
-                        sc.close();
-                        System.exit(0);
+                        break;
                 }
             }else 
                 System.out.println("Por favor digite uma nota valida");
                 
-        } while (true);
-    
+        } while (escolha !=5);
+     sc.close();
     }
 }
