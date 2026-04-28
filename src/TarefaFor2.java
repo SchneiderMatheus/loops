@@ -17,5 +17,7 @@ public class TarefaFor2 {
             
         } 
         System.out.println(soma);
+
+        sc.close();
     }
 }
