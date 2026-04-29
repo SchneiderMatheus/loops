@@ -20,6 +20,7 @@ public class TarefaFor4 {
 
         }
         System.out.println(fibonacci);
+        sc.close();
     }
 
 }
