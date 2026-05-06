@@ -14,7 +14,7 @@ public class Arrays2 {
         menor = vetor[0];
         maior = vetor[0];
         for (int i=0; i<10; i++){
-            vetor[i]= valorR.nextInt(100);
+            
             if (vetor[i]<menor) {
                 menor = vetor[i];
             } 
