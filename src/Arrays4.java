@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class Arrays3 {
+public class Arrays4 {
     public static void main(String[] args) {
         // vetor invertido
 
