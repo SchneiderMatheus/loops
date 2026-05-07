@@ -9,8 +9,6 @@ public class TarefaFor5 {
         System.out.println("Até que número você gostaria de saber quais números são primos? ");
         int limite=sc.nextInt();
 
-    
-
         for(int numero =2; numero <= limite; numero++){
         boolean primo = true;
 
@@ -26,9 +24,7 @@ public class TarefaFor5 {
                    primo = false;
                     break;
                     }
-
                 }
-                    
             }
 
              if (primo) {
