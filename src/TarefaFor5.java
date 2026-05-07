@@ -32,7 +32,7 @@ public class TarefaFor5 {
             }
 
              if (primo) {
-                System.out.println(numero + " ");
+                System.out.print(numero + " ");
             }
            
         }

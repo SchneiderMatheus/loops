@@ -15,12 +15,12 @@ public class Array5 {
         String par = "";
 
         for(int i=0; i<15; i++){
-            vetor[i]= valorR.nextInt(11);
+            vetor[i] = valorR.nextInt(11);
             if (vetor[i]%2==0) {
-                par =  par+" "+i;
+                par =  par+" "+vetor[i];
                 contadorPar++;
             } else {
-                impar = impar+" " +i;
+                impar = impar+" " +vetor[i];
                 contadorImpar++;
             }
         }
