@@ -15,12 +15,11 @@ public class ActMatriz1 {
 
         int [][] matriz = new int [linhas][colunas];
 
-        for (int i =0; i<3; i++){
-            for (int j=0; j<3; j++){
+        for (int i =0; i<linhas; i++){
+            for (int j=0; j<colunas; j++){
                 if (i==j){
                     matriz[i][j] =1;
-                }else
-                matriz [i][j]=0;
+                }
             }
         }
 
