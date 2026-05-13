@@ -19,12 +19,11 @@ public class Matrixes {
         // Tamanho: O tamanho de uma matriz é definido pelas suas
         //dimensões, ou seja, o número de linhas e colunas.
         
-
         Scanner sc= new Scanner(System.in);
 
-        Random aleatorio = new Random();
 
         int [][] matriz = new int [3][3];
+        //int [][] matrizB = new int [3][3];
 
         for (int i =0; i<3; i++){
             for (int j=0; j<3; j++){
