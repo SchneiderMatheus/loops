@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ActMatriz1 {
+public class ActMatriz3 {
     public static void main(String[] args) {
         // Matriz Identidade: Crie um matriz identidade com o tamanho definido pelo usuário (NxN –
         //matriz quadrada). Matriz identidade é preenchida com zeros, tendo a diagonal principal com

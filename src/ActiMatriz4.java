@@ -1,4 +1,4 @@
-public class ActiMatriz2 {
+public class ActiMatriz4 {
     public static void main(String[] args) {
         /*Verificação de Simetria: Escreva um programa em Java que preencha uma matriz 3x3 com
 números inteiros fornecidos pelo usuário. O programa deve verificar se a matriz é simétrica
